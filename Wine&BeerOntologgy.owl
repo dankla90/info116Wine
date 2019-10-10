@@ -418,7 +418,7 @@
         <Class IRI="#countries&amp;regions"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#AppropriateFor"/>
+        <ObjectProperty IRI="#GoesWith"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasProducer"/>
@@ -1004,6 +1004,27 @@
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
         <Class IRI="#Alcoholproducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GoesWith"/>
+            <Class IRI="#food"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasProducer"/>
+            <Class IRI="#producers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#IsFrom"/>
+            <Class IRI="#countries&amp;regions"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais"/>
