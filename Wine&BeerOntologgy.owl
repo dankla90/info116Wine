@@ -518,6 +518,27 @@
         <Class IRI="#Alcoholproducts"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Beer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GoesWith"/>
+            <Class IRI="#food"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasProducer"/>
+            <Class IRI="#producers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#IsFrom"/>
+            <Class IRI="#countries&amp;regions"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Big"/>
         <Class IRI="#Game_Meat"/>
     </SubClassOf>
@@ -1269,16 +1290,6 @@
         <ObjectProperty IRI="#HasProducer"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Ch._du_Mourre_du_Tendre_Plan_de_Dieu_Cuvée_Jacques_2016</IRI>
-        <Literal>Smak:
-Kraftig, god balanse og aromatisk.
-Lukt:
-Røde frukter, lakrisaromaer, kandiserte frukter.
-Farge:
-Dyp rød.</Literal>
-    </AnnotationAssertion>
 </Ontology>
 
 
