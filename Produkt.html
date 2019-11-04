@@ -25,15 +25,34 @@
             }
           </script>
 
-	</head>
-    <body>
+  </head>   
+  <body>
+    <div vocab="http://schema.org/" typeof="Product">
+      <span property="name">Moulin de Gassac Picpoul de Pinet 2018</span>
+      </div>
+    </div>
+
       <img property="image" src="wine.jpg" alt="White wine bottle">
-      <p> White wine
 
-      France, Languedoc-Roussillon, Picpoul de Pinet
+      Product description:
+      <span property="description">
+          White wine
 
-      149,99 NOK
+          France, Languedoc-Roussillon, Picpoul de Pinet
+    
+          149,99 NOK
+    
+          Apertif Shellfish Fish
+      </span>
+      
+        <div property="offers" typeof="Offer">
+          <!--price is 1000, a number, with locale-specific thousands separator
+              and decimal mark, and the $ character is marked up with the
+              machine-readable code "USD" -->
+          <span property="priceCurrency" content="NOK">Kroner</span><span
+            property="price" content="149.99">149.99</span>
+          <link property="availability" href="http://schema.org/InStock" />In stock
+        </div>
 
-      Apertif Shellfish Fish</p>
-    </body>
+  </body>
 </html>
