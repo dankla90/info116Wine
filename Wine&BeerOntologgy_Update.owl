@@ -565,7 +565,22 @@
         <ObjectProperty IRI="#GoesWith"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#HasBitterness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasFreshness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasFullness"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#HasProducer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSweetness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasTannin"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#IsFrom"/>
@@ -1538,6 +1553,26 @@
         <ObjectProperty IRI="#HasProducer"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasFullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasTannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
+    </ObjectPropertyRange>
 </Ontology>
 
 
