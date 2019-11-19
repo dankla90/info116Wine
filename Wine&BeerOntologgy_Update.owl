@@ -670,6 +670,34 @@
         <Class IRI="#Ale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bitter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bitter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bitter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bitter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bitterness_Value_Partition"/>
         <Class IRI="#Value_Partition"/>
     </SubClassOf>
@@ -680,6 +708,27 @@
     <SubClassOf>
         <Class IRI="#BrownAle"/>
         <Class IRI="#Ale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrownAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrownAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrownAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bugey"/>
@@ -958,12 +1007,68 @@
         <Class IRI="#Ale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#IndianPaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndianPaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndianPaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndianPaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Jura"/>
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lager"/>
         <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lager"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Languedoc-Roussillon"/>
@@ -1054,12 +1159,68 @@
         <Class IRI="#Ale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaleAle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pessac-Léognan"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilsner"/>
         <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilsner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilsner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilsner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilsner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pomerol"/>
@@ -1072,6 +1233,34 @@
     <SubClassOf>
         <Class IRI="#Porter"/>
         <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pouilly-Fuissé"/>
@@ -1090,6 +1279,41 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Red"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasTannin"/>
+            <Class IRI="#Tannin_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rhône"/>
         <Class IRI="#France"/>
     </SubClassOf>
@@ -1104,6 +1328,27 @@
     <SubClassOf>
         <Class IRI="#Rosé"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosé"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosé"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosé"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Saint-Estèphe"/>
@@ -1146,12 +1391,68 @@
         <Class IRI="#Beer"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SourBeer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourBeer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourBeer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourBeer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#St._Joseph"/>
         <Class IRI="#Rhône"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stout"/>
         <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stout"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasBitterness"/>
+            <Class IRI="#Bitterness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stout"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stout"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stout"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sweet_Sweetness"/>
@@ -1238,12 +1539,89 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#fortified_wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fortified_wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fortified_wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fortified_wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasTannin"/>
+            <Class IRI="#Tannin_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#sparkling"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#sparkling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sparkling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sparkling"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#white"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFreshness"/>
+            <Class IRI="#Freshness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasFullness"/>
+            <Class IRI="#Fullness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasSweetness"/>
+            <Class IRI="#Sweetness_Value_Partition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasTannin"/>
+            <Class IRI="#Tannin_Value_Partition"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Anjou_–_Saumur"/>
