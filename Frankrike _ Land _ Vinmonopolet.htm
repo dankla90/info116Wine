@@ -2680,7 +2680,8 @@
 				</div>
 			</div>
 		</main>
-		<footer class="site__footer" id="site-footer">
+		<!--Satt vocab for hele footer-->
+		<footer class="site__footer" id="site-footer" vocab="https://schema.org/LocalBusiness">
 			<div class="section">
 				<div class="section__inner-container">
 					<div class="footer">
@@ -2690,7 +2691,8 @@
 								</h2>
 								<ul id="ContactUsNavNode" class="link-list" aria-expanded="false">
 									<li class="OpeningHoursLink">
-										<p>Åpningstider:<br>man, tir, tor og fre: 08:00 - 18:00<br>ons: 09:00 - 18:00
+										<!--rdfa hint åpningstider-->
+										<p property="openingHours">Åpningstider:<br>man, tir, tor og fre: 08:00 - 18:00<br>ons: 09:00 - 18:00
 											<br> lør: 09:00 - 15:00</p>
 									</li>
 									<li class="yCmsComponent ChatWithUsLink">
@@ -2702,7 +2704,8 @@
 										</div>
 									</li>
 									<li class="CallUsLink">
-										<a href="tel:22015000">22 01 50 00</a>
+										<!--rdfa hint telefon-->
+										<a property="telephone" href="tel:22015000">22 01 50 00</a>
 										<p>
 										</p>
 										<p>Vi kan ringe deg tilbake alle hverdager mellom kl 9 og 16</p>&nbsp;
@@ -2835,7 +2838,7 @@
 					<div class="extended-footer">
 						<div class="ExtendedFooter">
 							<!--addresse og org-nr rdfa-->
-							<p vocab="https://schema.org/Organization"><span property="legalName" class="utils__bold">AS vinmonopolet</span><span property="address"> Dronning Eufemias gate 11, 0150 Oslo |
+							<p><span property="legalName" class="utils__bold">AS vinmonopolet</span><span property="address"> Dronning Eufemias gate 11, 0150 Oslo |
 								Pb. 6953 St. Olavsplass, 0130 Oslo</span><br><span property="identifier"> Organisasjonsnummer: 817209 882</span> </p>
 							<ul class="list-unstyled" id="ExtendedFooter">
 								<li class="yCmsComponent InformationToEnglishLink">
