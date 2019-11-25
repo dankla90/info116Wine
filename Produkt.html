@@ -1080,7 +1080,10 @@
                                     </div>
                                     <div class="product__layout-wrapper">
                                         <div class="product__hgroup">
-                                            <h4 class="product__category-name">Hvitvin<h4>
+                                            <!--rdfa hint hvitvin-->
+                                            <h4 class="product__category-name">
+                                                <div vocab="Wine&BeerOntologgy_Update.owl" typeof="white">Hvitvin</div>
+                                            </h4>
                                                 <!--rdfa hint navn-->
                                                     <h1><div vocab="http://schema.org/" typeof="Product">
                                                         <span property="name">Moulin de Gassac Picpoul de Pinet 2018</span>
@@ -1099,7 +1102,7 @@
                                                     <p class="product__price-and-buy__price-wrapper">
                                                         <span class="product__price">
                                                             <!--rdfa hint pris-->
-                                                            <span property="priceCurrency" content="NOK">Kr.</span> 
+                                                            <span vocab="http://schema.org" property="priceCurrency" content="NOK">Kr.</span> 
                                                             <span property="price" content="149,99">149,90</span>
                                                         </span>
                                                         <span class="product__cost_per_unit">
@@ -1162,6 +1165,7 @@
                                 <div class="product__layout-wrapper-2 clearfix ">
                                     <div class="product__properties-wrapper clearfix">
                                         <div class="product__properties-block ">
+                                            <!--rdfa hint passer til-->
                                             <h2 class="sr-only">Passer til</h2>
                                             <ul class="product__properties-list product__properties-list__goes-well-with">
                                                 <li class="product__properties-item">
@@ -1176,7 +1180,10 @@
                                                         <span class="path8"></span>
                                                         <span class="path9"></span>
                                                     </div>
-                                                    <div class="product__properties-item__label">Aperitiff</div>
+                                                    <!--rdfa hint Aperitiff-->
+                                                    <div class="product__properties-item__label">
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="GoesWith">Aperitiff</div>
+                                                    </div>
                                                 </li>
                                                 <li class="product__properties-item">
                                                     <div class="product__properties-item__icon goes-well-with__icon goes-well-with__icon--B">
@@ -1190,7 +1197,10 @@
                                                         <span class="path8"></span>
                                                         <span class="path9"></span>
                                                     </div>
-                                                    <div class="product__properties-item__label">Skalldyr</div>
+                                                    <!--rdfa hint Skalldyr-->
+                                                    <div class="product__properties-item__label">
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="GoesWith">Skalldyr</div>
+                                                    </div>
                                                 </li>
                                                 <li class="product__properties-item">
                                                     <div class="product__properties-item__icon goes-well-with__icon goes-well-with__icon--C">
@@ -1204,7 +1214,10 @@
                                                         <span class="path8"></span>
                                                         <span class="path9"></span>
                                                     </div>
-                                                    <div class="product__properties-item__label">Fisk</div>
+                                                    <!--rdfa hint Fisk-->
+                                                    <div class="product__properties-item__label">
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="GoesWith">Fisk</div>
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1214,20 +1227,33 @@
                                                 <li class="product__properties-item product-characteristics__item--friskhet">
                                                     <div class="product__properties-item__icon icon-pie icon-pie--8"></div>
                                                     <div class="product__properties-item__label">
-                                                        Friskhet </div>
-                                                    <span class="sr-only">Friskhet 8 av 12</span>
+                                                        <!--rdfa hint Friskhet-->
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" typeof="Freshness_Value_Partition">Friskhet</div>
+                                                    </div>
+                                                    <span class="sr-only">
+
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasFreashness">Friskhet 8 av 12</div>
+                                                    </span>
                                                 </li>
                                                 <li class="product__properties-item  product-characteristics__item--fylde">
                                                     <div class="product__properties-item__icon icon-pie icon-pie--7"></div>
                                                     <div class="product__properties-item__label">
-                                                        Fylde </div>
-                                                    <span class="sr-only">Fylde 7 av 12</span>
+                                                        <!--rdfa hint Fylde-->
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" typeof="Fullness_Value_Partition">Fylde</div>
+                                                    </div>
+                                                    <span class="sr-only">
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasFullness">Fylde 7 av 12</div>
+                                                    </span>
                                                 </li>
                                                 <li class="product__properties-item product-characteristics__item--sodme">
                                                     <div class="product__properties-item__icon icon-pie icon-pie--1"></div>
                                                     <div class="product__properties-item__label">
-                                                        Sødme </div>
-                                                    <span class="sr-only">Sødme 1 av 12</span>
+                                                        <!--rdfa hint Sødme-->
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" typeof="Sweetness_Value_Partition">Sødme</div>
+                                                    </div>
+                                                    <span class="sr-only">
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasSweetness">Sødme 1 av 12</div>
+                                                    </span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1290,55 +1316,57 @@
                                             <h2 class="sr-only js-accordion__header" data-accordion-opened="true">
                                                 Om produktet</h2>
                                             <div class="js-accordion__panel">
-                                                <ul class="product__tab-list">
-                                                    <li>
-                                                        <span class="product__tab-list__label">Varetype</span>
-                                                        <span class="product__tab-list__value">
-                                                            Hvitvin</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Varenummer</span>
-                                                        <span class="product__tab-list__value">10995001</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Smak</span>
-                                                        <span class="product__tab-list__value">Floral, noe urter samt friske epler.</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Lukt</span>
-                                                        <span class="product__tab-list__value">Middels aromatisk, floral duft med noe grønne epler og sitrus.</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Farge</span>
-                                                        <span class="product__tab-list__value">Lys strågul.</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Produsent</span>
-                                                        <span class="product__tab-list__value">Moulin de Gassac</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Årgang<span aria-describedby="product__year-footnote" class="product__year-footnote">*</span></span>
-                                                        <span class="product__tab-list__value">
-                                                            2018<br />
-                                                            <span class="utils__italic" id="product__year-footnote">* Vi tar forbehold om at varen som leveres kan ha en annen årgang/etikett enn oppgitt</span>
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Land, distrikt</span>
-                                                        <span class="product__tab-list__value">
-                                                            Frankrike, Languedoc-Roussillon, Picpoul de Pinet</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Råstoff</span>
-                                                        <span class="product__tab-list__value">
-                                                            Picpoul&nbsp;100%</span>
-                                                    </li>
-                                                    <li>
-                                                        <span class="product__tab-list__label">Metode</span>
-                                                        <span class="product__tab-list__value">Håndplukkede druer. Total avstilking, skånsom pressing og gjæring samt et opphold på 5 md i ståltanker.</span>
-                                                    </li>
-                                                </ul>
-
+                                                <!--rdfa hint Description-->
+                                                <span property="description">
+                                                    <ul class="product__tab-list">
+                                                        <li>
+                                                            <span class="product__tab-list__label">Varetype</span>
+                                                            <span class="product__tab-list__value">
+                                                                Hvitvin</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Varenummer</span>
+                                                            <span class="product__tab-list__value">10995001</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Smak</span>
+                                                            <span class="product__tab-list__value">Floral, noe urter samt friske epler.</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Lukt</span>
+                                                            <span class="product__tab-list__value">Middels aromatisk, floral duft med noe grønne epler og sitrus.</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Farge</span>
+                                                            <span class="product__tab-list__value">Lys strågul.</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Produsent</span>
+                                                            <span class="product__tab-list__value">Moulin de Gassac</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Årgang<span aria-describedby="product__year-footnote" class="product__year-footnote">*</span></span>
+                                                            <span class="product__tab-list__value">
+                                                                2018<br />
+                                                                <span class="utils__italic" id="product__year-footnote">* Vi tar forbehold om at varen som leveres kan ha en annen årgang/etikett enn oppgitt</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Land, distrikt</span>
+                                                            <span class="product__tab-list__value">
+                                                                Frankrike, Languedoc-Roussillon, Picpoul de Pinet</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Råstoff</span>
+                                                            <span class="product__tab-list__value">
+                                                                Picpoul&nbsp;100%</span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="product__tab-list__label">Metode</span>
+                                                            <span class="product__tab-list__value">Håndplukkede druer. Total avstilking, skånsom pressing og gjæring samt et opphold på 5 md i ståltanker.</span>
+                                                        </li>
+                                                    </ul>
+                                                </span>
                                                 <div class="product__map">
                                                     <div id="product__map">
                                                         <div id="product__map-inner"><a href="https://www.google.no/maps/search/Frankrike,Languedoc-Roussillon,Picpoul de Pinet" title="Kart over Frankrike, Picpoul de Pinet" target="_blank"><img
