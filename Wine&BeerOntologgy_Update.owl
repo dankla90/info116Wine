@@ -50,19 +50,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Chateau_Haut-Bages_Liberal"/>
-        <Class IRI="#Cabardès"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chablis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chambolle-Musigny"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Champagne"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chassagne-Montrachet"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cheese"/>
@@ -135,10 +122,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Côte_de_Beaune"/>
-        <Class IRI="#Château-Grillet"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Châteauneuf-du-Pape"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Côte_de_Nuits"/>
@@ -187,7 +170,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Good_Tannin"/>
-        <Class IRI="#Domestic_Meat"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IndianPaleAle"/>
@@ -499,7 +481,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Côtes_du_Roussillon"/>
-        <Class IRI="#Côte_d&apos;Or"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Entre-Deux-Mers"/>
@@ -632,81 +613,6 @@
     <Declaration>
         <NamedIndividual IRI="#Ch._du_Mourre_du_Tendre_Plan_de_Dieu_Cuvée_Jacques_2016"/>
     </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Branaire-Ducru"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Brane-Cantenac"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Cheval_Blanc"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Ducru-Beaucaillou"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Figeac"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Haut-Bages_Liberal"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Haut-Bailly"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Haut-Brion"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Haut-Marbuzet"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Lafite_Rothschild"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Lascombes"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Latour"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Leoville_Las_Cases"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Lynch-Moussas"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Margaux"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Montrose"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Mouton_Rothschild"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Pontet-Canet"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Pétrus"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Rauzan-Gassies"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_de_Camensac"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_de_Curton"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_de_Pommard"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Domaine_Henri_Milan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château_Suau_(Capian)"/>
-    </Declaration>
     <SubClassOf>
         <Class IRI="#Alcoholproducts"/>
         <ObjectMinCardinality cardinality="1">
@@ -838,24 +744,6 @@
     <SubClassOf>
         <Class IRI="#Chateau_Haut-Bages_Liberal"/>
         <Class IRI="#producers"/>
-        <Class IRI="#Cabardès"/>
-        <Class IRI="#Languedoc-Roussillon"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chablis"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chambolle-Musigny"/>
-        <Class IRI="#Côte_de_Nuits"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Champagne"/>
-        <Class IRI="#France"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chassagne-Montrachet"/>
-        <Class IRI="#Côte_de_Beaune"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cheese"/>
@@ -948,44 +836,6 @@
     <SubClassOf>
         <Class IRI="#Château_de_Pommard"/>
         <Class IRI="#producers"/>
-        <Class IRI="#Château-Grillet"/>
-        <Class IRI="#Rhône"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Châteauneuf-du-Pape"/>
-        <Class IRI="#Rhône"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cognac"/>
-        <Class IRI="#Loire_Valley"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Collioure"/>
-        <Class IRI="#Languedoc-Roussillon"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Condrieu"/>
-        <Class IRI="#Rhône"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Corbières"/>
-        <Class IRI="#Languedoc-Roussillon"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cornas"/>
-        <Class IRI="#Rhône"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Crozes-Hermitage"/>
-        <Class IRI="#Rhône"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Côte-Rôtie"/>
-        <Class IRI="#Rhône"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Côte_Chalonnaise"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Côte_de_Beaune"/>
@@ -1002,6 +852,10 @@
     <SubClassOf>
         <Class IRI="#Desert"/>
         <Class IRI="#food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domaine_Henri_Milan"/>
+        <Class IRI="#producers"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Domestic_Meat"/>
@@ -1619,8 +1473,6 @@
     <SubClassOf>
         <Class IRI="#Château_Suau_(Capian)"/>
         <Class IRI="#producers"/>
-        <Class IRI="#Anjou_–_Saumur"/>
-        <Class IRI="#Loire_Valley"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Côte_d&apos;Or"/>
@@ -1780,26 +1632,6 @@
         <Class IRI="#Domaine_Henri_Milan"/>
         <Class IRI="#Château_Figeac[4]"/>
         <Class IRI="#Château_Suau_(Capian)"/>
-        <Class IRI="#Bugey"/>
-        <Class IRI="#Chablis"/>
-        <Class IRI="#Côte_Chalonnaise"/>
-        <Class IRI="#Mâconnais"/>
-        <Class IRI="#Côte_d&apos;Or"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Chambolle-Musigny"/>
-        <Class IRI="#Gevrey-Chambertin"/>
-        <Class IRI="#Nuits-Saint-Georges"/>
-        <Class IRI="#Vosne-Romanée"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Cognac"/>
-        <Class IRI="#Pouilly-Fumé"/>
-        <Class IRI="#Touraine"/>
-        <Class IRI="#Anjou_–_Saumur"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Côte_de_Beaune"/>
@@ -2091,8 +1923,6 @@
     <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
-        <Class IRI="#producers"/>
-        <NamedIndividual IRI="#Domaine_Henri_Milan"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#HasProducer"/>
