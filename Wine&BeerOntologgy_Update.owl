@@ -25,7 +25,28 @@
         <Class IRI="#Algiers"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Aloxe-Corton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alsace"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Apertif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auxey-Duresses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banyuls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barsac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beaumes-de-Venise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beaune"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Beef"/>
@@ -43,10 +64,31 @@
         <Class IRI="#Bitterness_Value_Partition"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Blanquette_de_Limoux"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BrownAle"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Bugey"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Béjaïa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabardès"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chablis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chambolle-Musigny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Champagne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chassagne-Montrachet"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Chateau_Haut-Bages_Liberal"/>
@@ -56,6 +98,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Chlef_Province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Château-Grillet"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Château_Branaire-Ducru"/>
@@ -121,10 +166,43 @@
         <Class IRI="#Château_de_Pommard"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Châteauneuf-du-Pape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collioure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condrieu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corbières"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cornas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crozes-Hermitage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Côte-Rôtie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Côte_Chalonnaise"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Côte_de_Beaune"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Côte_de_Nuits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Côtes_du_Rhône"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Côtes_du_Roussillon"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dahra"/>
@@ -142,7 +220,13 @@
         <Class IRI="#Dry_Sweetness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Entre-Deux-Mers"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Extra_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fitou"/>
     </Declaration>
     <Declaration>
         <Class IRI="#France"/>
@@ -154,10 +238,19 @@
         <Class IRI="#Freshness_Value_Partition"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Fronsac"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Fullness_Value_Partition"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Game_Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gevrey-Chambertin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gigondas"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Good_Bitterness"/>
@@ -172,7 +265,19 @@
         <Class IRI="#Good_Tannin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Graves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Haut-Médoc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hermitage"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#IndianPaleAle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jura"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lager"/>
@@ -196,10 +301,19 @@
         <Class IRI="#Loire_Valley"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Lorraine"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Low_Freshness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Madiran"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mascara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maury"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Medium_Bitterness"/>
@@ -217,22 +331,46 @@
         <Class IRI="#Medium_Tannin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Minervois"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mâconnais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Médoc"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Médéa"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Nuits-Saint-Georges"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PaleAle"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Pessac-Léognan"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pilsner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pomerol"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pork"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Porter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pouilly-Fuissé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pouilly-Fumé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provence"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Red"/>
@@ -244,7 +382,28 @@
         <Class IRI="#Rich_Fullness"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Rivesaltes"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rosé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saint-Estèphe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saint-Julien"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saint-Péray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saint-Émilion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Santenay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savoie"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SeaFood"/>
@@ -259,7 +418,9 @@
         <Class IRI="#SourBeer"/>
     </Declaration>
     <Declaration>
-<<<<<<< HEAD
+        <Class IRI="#St._Joseph"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Stout"/>
     </Declaration>
     <Declaration>
@@ -270,15 +431,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Sweetness_Value_Partition"/>
-=======
-        <Class IRI="#Red"/>
->>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
     </Declaration>
     <Declaration>
         <Class IRI="#Tannin_Value_Partition"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tlemcen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touraine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vacqueyras"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Value_Partition"/>
@@ -314,20 +478,19 @@
         <Class IRI="#Very_Tannin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Vosne-Romanée"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Whitemeat"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zaccar"/>
     </Declaration>
     <Declaration>
-<<<<<<< HEAD
         <Class IRI="#food"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fortified_wine"/>
-=======
-        <Class IRI="#Stout"/>
->>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
     </Declaration>
     <Declaration>
         <Class IRI="#producers"/>
@@ -339,6 +502,9 @@
         <Class IRI="#white"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Anjou_–_Saumur"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Château_Figeac[4]"/>
     </Declaration>
     <Declaration>
@@ -348,7 +514,13 @@
         <Class IRI="#Côte_d&apos;Or"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Côte_du_Rhône-Villages,_Rhône_wine"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lam/Sheep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sauternes_–_Sauternes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#countries&amp;regions"/>
@@ -366,10 +538,28 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Margaux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meursault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Pauillac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#GoesWith"/>
@@ -396,210 +586,7 @@
         <ObjectProperty IRI="#IsFrom"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Aloxe-Corton"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Alsace"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Auxey-Duresses"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Banyuls"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Barsac"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Beaujolais"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Beaumes-de-Venise"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Beaune"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Blanquette_de_Limoux"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Bugey"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Cabardès"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Chablis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Chambolle-Musigny"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Champagne"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Chassagne-Montrachet"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Château-Grillet"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Châteauneuf-du-Pape"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Cognac"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Collioure"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Condrieu"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Corbières"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Cornas"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Crozes-Hermitage"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Côte-Rôtie"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Côte_Chalonnaise"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Côtes_du_Rhône"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Côtes_du_Roussillon"/>
-    </Declaration>
-    <Declaration>
-<<<<<<< HEAD
-        <NamedIndividual IRI="#Entre-Deux-Mers"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Fitou"/>
-=======
-        <ObjectProperty IRI="#HasSweetness"/>
->>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Fronsac"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Gevrey-Chambertin"/>
-    </Declaration>
-    <Declaration>
-<<<<<<< HEAD
-        <NamedIndividual IRI="#Gigondas"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Graves"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Haut-Médoc"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Hermitage"/>
-=======
         <NamedIndividual IRI="#Ch._du_Mourre_du_Tendre_Plan_de_Dieu_Cuvée_Jacques_2016"/>
->>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Jura"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Lorraine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Madiran"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Margaux"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Maury"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Meursault"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Minervois"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Muscadet"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Médoc"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Nuits-Saint-Georges"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pauillac"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pessac-Léognan"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pomerol"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pouilly-Fuissé"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pouilly-Fumé"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Provence"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rivesaltes"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Saint-Estèphe"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Saint-Julien"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Saint-Péray"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Saint-Émilion"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sancerre"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Santenay"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Savoie"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#St._Joseph"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Touraine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Vacqueyras"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Vosne-Romanée"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#&apos;&apos;Côte_du_Rhône-Villages,_Rhône_wine&apos;&apos;"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Anjou_–_Saumur"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Ale"/>
@@ -614,8 +601,36 @@
         <Class IRI="#Algeria"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Aloxe-Corton"/>
+        <Class IRI="#Côte_de_Beaune"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alsace"/>
+        <Class IRI="#France"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Apertif"/>
         <Class IRI="#food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auxey-Duresses"/>
+        <Class IRI="#Côte_de_Beaune"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banyuls"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barsac"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beaumes-de-Venise"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beaune"/>
+        <Class IRI="#Côte_de_Beaune"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Beef"/>
@@ -687,6 +702,10 @@
         <Class IRI="#Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Blanquette_de_Limoux"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BrownAle"/>
         <Class IRI="#Ale"/>
     </SubClassOf>
@@ -712,8 +731,32 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bugey"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Béjaïa"/>
         <Class IRI="#Algeria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabardès"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chablis"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chambolle-Musigny"/>
+        <Class IRI="#Côte_de_Nuits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Champagne"/>
+        <Class IRI="#France"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chassagne-Montrachet"/>
+        <Class IRI="#Côte_de_Beaune"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Chateau_Haut-Bages_Liberal"/>
@@ -726,6 +769,10 @@
     <SubClassOf>
         <Class IRI="#Chlef_Province"/>
         <Class IRI="#Algeria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Château-Grillet"/>
+        <Class IRI="#Rhône"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Château_Branaire-Ducru"/>
@@ -812,12 +859,56 @@
         <Class IRI="#producers"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Châteauneuf-du-Pape"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognac"/>
+        <Class IRI="#Loire_Valley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collioure"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condrieu"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corbières"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cornas"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crozes-Hermitage"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Côte-Rôtie"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Côte_Chalonnaise"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Côte_de_Beaune"/>
         <Class IRI="#Côte_d&apos;Or"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Côte_de_Nuits"/>
         <Class IRI="#Côte_d&apos;Or"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Côtes_du_Rhône"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Côtes_du_Roussillon"/>
+        <Class IRI="#Languedoc-Roussillon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dahra"/>
@@ -840,8 +931,16 @@
         <Class IRI="#Sweetness_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Entre-Deux-Mers"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Extra_Bitterness"/>
         <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fitou"/>
+        <Class IRI="#Languedoc-Roussillon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#France"/>
@@ -856,12 +955,24 @@
         <Class IRI="#Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fronsac"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Fullness_Value_Partition"/>
         <Class IRI="#Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Game_Meat"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gevrey-Chambertin"/>
+        <Class IRI="#Côte_de_Nuits"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gigondas"/>
+        <Class IRI="#Rhône"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Good_Bitterness"/>
@@ -878,6 +989,18 @@
     <SubClassOf>
         <Class IRI="#Good_Tannin"/>
         <Class IRI="#Tannin_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graves"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Haut-Médoc"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hermitage"/>
+        <Class IRI="#Rhône"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IndianPaleAle"/>
@@ -910,6 +1033,10 @@
             <ObjectProperty IRI="#HasSweetness"/>
             <Class IRI="#Sweetness_Value_Partition"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jura"/>
+        <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lager"/>
@@ -968,12 +1095,24 @@
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Lorraine"/>
+        <Class IRI="#France"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Low_Freshness"/>
         <Class IRI="#Freshness_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Madiran"/>
+        <Class IRI="#France"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mascara"/>
         <Class IRI="#Algeria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maury"/>
+        <Class IRI="#Languedoc-Roussillon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Medium_Bitterness"/>
@@ -996,12 +1135,24 @@
         <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Minervois"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mâconnais"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Médoc"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Médéa"/>
         <Class IRI="#Algeria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuits-Saint-Georges"/>
+        <Class IRI="#Côte_de_Nuits"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PaleAle"/>
@@ -1036,6 +1187,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Pessac-Léognan"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pilsner"/>
         <Class IRI="#Beer"/>
     </SubClassOf>
@@ -1066,6 +1221,10 @@
             <ObjectProperty IRI="#HasSweetness"/>
             <Class IRI="#Sweetness_Value_Partition"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pomerol"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pork"/>
@@ -1104,8 +1263,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-<<<<<<< HEAD
-=======
         <Class IRI="#Pouilly-Fuissé"/>
         <Class IRI="#Mâconnais"/>
     </SubClassOf>
@@ -1118,7 +1275,6 @@
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
->>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
         <Class IRI="#Red"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
@@ -1166,6 +1322,10 @@
         <Class IRI="#Fullness_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rivesaltes"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rosé"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
@@ -1189,6 +1349,30 @@
             <ObjectProperty IRI="#HasSweetness"/>
             <Class IRI="#Sweetness_Value_Partition"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saint-Estèphe"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saint-Julien"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saint-Péray"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saint-Émilion"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santenay"/>
+        <Class IRI="#Côte_de_Beaune"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savoie"/>
+        <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SeaFood"/>
@@ -1235,13 +1419,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-<<<<<<< HEAD
-=======
         <Class IRI="#St._Joseph"/>
         <Class IRI="#Rhône"/>
     </SubClassOf>
     <SubClassOf>
->>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
         <Class IRI="#Stout"/>
         <Class IRI="#Beer"/>
     </SubClassOf>
@@ -1294,6 +1475,14 @@
         <Class IRI="#Algeria"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Touraine"/>
+        <Class IRI="#Loire_Valley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vacqueyras"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vegetarian"/>
         <Class IRI="#food"/>
     </SubClassOf>
@@ -1334,6 +1523,10 @@
         <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Vosne-Romanée"/>
+        <Class IRI="#Côte_de_Nuits"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Whitemeat"/>
         <Class IRI="#Domestic_Meat"/>
     </SubClassOf>
@@ -1431,6 +1624,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Anjou_–_Saumur"/>
+        <Class IRI="#Loire_Valley"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Château_Figeac[4]"/>
         <Class IRI="#producers"/>
     </SubClassOf>
@@ -1443,8 +1640,16 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Côte_du_Rhône-Villages,_Rhône_wine"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lam/Sheep"/>
         <Class IRI="#Domestic_Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sauternes_–_Sauternes"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fish"/>
@@ -1484,19 +1689,36 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-<<<<<<< HEAD
-=======
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
     </SubClassOf>
     <SubClassOf>
->>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
         <Class IRI="#France"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Margaux"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meursault"/>
+        <Class IRI="#Côte_de_Beaune"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet"/>
+        <Class IRI="#Loire_Valley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Pauillac"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre"/>
+        <Class IRI="#Loire_Valley"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Alcoholproducts"/>
@@ -1532,12 +1754,78 @@
         <Class IRI="#Zaccar"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Aloxe-Corton"/>
+        <Class IRI="#Auxey-Duresses"/>
+        <Class IRI="#Beaune"/>
+        <Class IRI="#Chassagne-Montrachet"/>
+        <Class IRI="#Santenay"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meursault"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alsace"/>
+        <Class IRI="#Champagne"/>
+        <Class IRI="#Jura"/>
+        <Class IRI="#Languedoc-Roussillon"/>
+        <Class IRI="#Loire_Valley"/>
+        <Class IRI="#Lorraine"/>
+        <Class IRI="#Madiran"/>
+        <Class IRI="#Provence"/>
+        <Class IRI="#Rhône"/>
+        <Class IRI="#Savoie"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Apertif"/>
         <Class IRI="#Cheese"/>
         <Class IRI="#Desert"/>
         <Class IRI="#SeaFood"/>
         <Class IRI="#Vegetarian"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Banyuls"/>
+        <Class IRI="#Blanquette_de_Limoux"/>
+        <Class IRI="#Cabardès"/>
+        <Class IRI="#Collioure"/>
+        <Class IRI="#Corbières"/>
+        <Class IRI="#Côtes_du_Roussillon"/>
+        <Class IRI="#Fitou"/>
+        <Class IRI="#Maury"/>
+        <Class IRI="#Minervois"/>
+        <Class IRI="#Rivesaltes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barsac"/>
+        <Class IRI="#Entre-Deux-Mers"/>
+        <Class IRI="#Fronsac"/>
+        <Class IRI="#Graves"/>
+        <Class IRI="#Haut-Médoc"/>
+        <Class IRI="#Médoc"/>
+        <Class IRI="#Pessac-Léognan"/>
+        <Class IRI="#Pomerol"/>
+        <Class IRI="#Saint-Estèphe"/>
+        <Class IRI="#Saint-Julien"/>
+        <Class IRI="#Saint-Émilion"/>
+        <Class IRI="#Sauternes_–_Sauternes"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Margaux"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Pauillac"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beaumes-de-Venise"/>
+        <Class IRI="#Château-Grillet"/>
+        <Class IRI="#Châteauneuf-du-Pape"/>
+        <Class IRI="#Condrieu"/>
+        <Class IRI="#Cornas"/>
+        <Class IRI="#Crozes-Hermitage"/>
+        <Class IRI="#Côte-Rôtie"/>
+        <Class IRI="#Côtes_du_Rhône"/>
+        <Class IRI="#Gigondas"/>
+        <Class IRI="#Hermitage"/>
+        <Class IRI="#Saint-Péray"/>
+        <Class IRI="#St._Joseph"/>
+        <Class IRI="#Vacqueyras"/>
+        <Class IRI="#Côte_du_Rhône-Villages,_Rhône_wine"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Beef"/>
@@ -1558,6 +1846,20 @@
         <Class IRI="#BrownAle"/>
         <Class IRI="#IndianPaleAle"/>
         <Class IRI="#PaleAle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bugey"/>
+        <Class IRI="#Chablis"/>
+        <Class IRI="#Côte_Chalonnaise"/>
+        <Class IRI="#Mâconnais"/>
+        <Class IRI="#Côte_d&apos;Or"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chambolle-Musigny"/>
+        <Class IRI="#Gevrey-Chambertin"/>
+        <Class IRI="#Nuits-Saint-Georges"/>
+        <Class IRI="#Vosne-Romanée"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Chateau_Haut-Bages_Liberal"/>
@@ -1585,6 +1887,14 @@
         <Class IRI="#Domaine_Henri_Milan"/>
         <Class IRI="#Château_Figeac[4]"/>
         <Class IRI="#Château_Suau_(Capian)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cognac"/>
+        <Class IRI="#Pouilly-Fumé"/>
+        <Class IRI="#Touraine"/>
+        <Class IRI="#Anjou_–_Saumur"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Côte_de_Beaune"/>
@@ -1617,266 +1927,6 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fish"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Shellfish"/>
     </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Beaune"/>
-        <NamedIndividual IRI="#Aloxe-Corton"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#France"/>
-        <NamedIndividual IRI="#Alsace"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Beaune"/>
-        <NamedIndividual IRI="#Auxey-Duresses"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Banyuls"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Barsac"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
-        <NamedIndividual IRI="#Beaujolais"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Beaumes-de-Venise"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Beaune"/>
-        <NamedIndividual IRI="#Beaune"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Blanquette_de_Limoux"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
-        <NamedIndividual IRI="#Bugey"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Cabardès"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
-        <NamedIndividual IRI="#Chablis"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Nuits"/>
-        <NamedIndividual IRI="#Chambolle-Musigny"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#France"/>
-        <NamedIndividual IRI="#Champagne"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Beaune"/>
-        <NamedIndividual IRI="#Chassagne-Montrachet"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Château-Grillet"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Châteauneuf-du-Pape"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Loire_Valley"/>
-        <NamedIndividual IRI="#Cognac"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Collioure"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Condrieu"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Corbières"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Cornas"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Crozes-Hermitage"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Côte-Rôtie"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
-        <NamedIndividual IRI="#Côte_Chalonnaise"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Côtes_du_Rhône"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Côtes_du_Roussillon"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Entre-Deux-Mers"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Fitou"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Fronsac"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Nuits"/>
-        <NamedIndividual IRI="#Gevrey-Chambertin"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Gigondas"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Graves"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Haut-Médoc"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Hermitage"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#France"/>
-        <NamedIndividual IRI="#Jura"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#France"/>
-        <NamedIndividual IRI="#Lorraine"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#France"/>
-        <NamedIndividual IRI="#Madiran"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Margaux"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Maury"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Beaune"/>
-        <NamedIndividual IRI="#Meursault"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Minervois"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Loire_Valley"/>
-        <NamedIndividual IRI="#Muscadet"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Médoc"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Nuits"/>
-        <NamedIndividual IRI="#Nuits-Saint-Georges"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Pauillac"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Pessac-Léognan"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Pomerol"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Loire_Valley"/>
-        <NamedIndividual IRI="#Pouilly-Fumé"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#France"/>
-        <NamedIndividual IRI="#Provence"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Languedoc-Roussillon"/>
-        <NamedIndividual IRI="#Rivesaltes"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Saint-Estèphe"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Saint-Julien"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Saint-Péray"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Saint-Émilion"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Loire_Valley"/>
-        <NamedIndividual IRI="#Sancerre"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Beaune"/>
-        <NamedIndividual IRI="#Santenay"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#France"/>
-        <NamedIndividual IRI="#Savoie"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#St._Joseph"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Loire_Valley"/>
-        <NamedIndividual IRI="#Touraine"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#Vacqueyras"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Côte_de_Nuits"/>
-        <NamedIndividual IRI="#Vosne-Romanée"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rhône"/>
-        <NamedIndividual IRI="#&apos;&apos;Côte_du_Rhône-Villages,_Rhône_wine&apos;&apos;"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Loire_Valley"/>
-        <NamedIndividual IRI="#Anjou_–_Saumur"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
-        <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
-    </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#HasProducer"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
