@@ -235,6 +235,15 @@
         <Class IRI="#Porter"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ready_to_drink_can_be_stored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ready_to_drink_can_not_be_stored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ready_to_drink_should_be_stored"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Red"/>
     </Declaration>
     <Declaration>
@@ -257,6 +266,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SourBeer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage_value_partition"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stout"/>
@@ -386,6 +398,18 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#IsFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Storability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Has_tannin_content_value"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Aloxe-Corton"/>
@@ -585,6 +609,20 @@
     <Declaration>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alcoholproducts"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has_Storability"/>
+            <Class IRI="#Storage_value_partition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcoholproducts"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ale"/>
         <Class IRI="#Beer"/>
@@ -1088,6 +1126,18 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ready_to_drink_can_be_stored"/>
+        <Class IRI="#Storage_value_partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ready_to_drink_can_not_be_stored"/>
+        <Class IRI="#Storage_value_partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ready_to_drink_should_be_stored"/>
+        <Class IRI="#Storage_value_partition"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Red"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
@@ -1202,6 +1252,10 @@
             <ObjectProperty IRI="#HasSweetness"/>
             <Class IRI="#Sweetness_Value_Partition"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage_value_partition"/>
+        <Class IRI="#Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stout"/>
@@ -1444,6 +1498,20 @@
             <ObjectProperty IRI="#IsFrom"/>
             <Class IRI="#countries&amp;regions"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Has_sugar_content_value"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Has_tannin_content_value"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
@@ -1836,6 +1904,9 @@
         <ObjectProperty IRI="#HasProducer"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_Storability"/>
+    </FunctionalObjectProperty>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasBitterness"/>
         <Class IRI="#Bitterness_Value_Partition"/>
@@ -1856,6 +1927,22 @@
         <ObjectProperty IRI="#HasTannin"/>
         <Class IRI="#Tannin_Value_Partition"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Storability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Storability"/>
+            <Class IRI="#Storage_value_partition"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+    </FunctionalDataProperty>
 </Ontology>
 
 
