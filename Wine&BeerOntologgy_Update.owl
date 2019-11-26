@@ -70,16 +70,7 @@
         <Class IRI="#Domestic_Meat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dry_Sweetness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Extra_Bitterness"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#France"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fresh_Freshness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Freshness_Value_Partition"/>
@@ -91,18 +82,6 @@
         <Class IRI="#Game_Meat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Good_Bitterness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Good_Freshness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Good_Fullness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Good_Tannin"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#IndianPaleAle"/>
     </Declaration>
     <Declaration>
@@ -112,40 +91,10 @@
         <Class IRI="#Languedoc-Roussillon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Light_Fullness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Little_Bitterness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Little_Sweetness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Little_Tannin"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Loire_Valley"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Low_Freshness"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Mascara"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Medium_Bitterness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Medium_Freshness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Medium_Fullness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Medium_Sweetness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Medium_Tannin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mâconnais"/>
@@ -166,22 +115,10 @@
         <Class IRI="#Porter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ready_to_drink_can_be_stored"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ready_to_drink_can_not_be_stored"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ready_to_drink_should_be_stored"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Red"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rhône"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Rich_Fullness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rosé"/>
@@ -193,9 +130,6 @@
         <Class IRI="#Small"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Solid_Tannin"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#SourBeer"/>
     </Declaration>
     <Declaration>
@@ -203,12 +137,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Stout"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sweet_Sweetness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sweetish_Sweetness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sweetness_Value_Partition"/>
@@ -224,33 +152,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Vegetarian"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Bitterness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Fresh_Freshness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Light_Fullness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Little_Bitterness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Little_Tannin"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Low_Freshness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Rich_Fullness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Sweet_Sweetness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Very_Tannin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Whitemeat"/>
@@ -370,6 +271,9 @@
         <NamedIndividual IRI="#Cabardès"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Chablis"/>
     </Declaration>
     <Declaration>
@@ -487,10 +391,19 @@
         <NamedIndividual IRI="#Domaine_Henri_Milan"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dry_Sweetness"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Entre-Deux-Mers"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Extra_Bitterness"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Fitou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fresh_Freshness"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Fronsac"/>
@@ -500,6 +413,18 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gigondas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good_Tannin"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Graves"/>
@@ -514,7 +439,22 @@
         <NamedIndividual IRI="#Jura"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Light_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Little_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Little_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Little_Tannin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Lorraine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Freshness"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Madiran"/>
@@ -524,6 +464,21 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Maury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_Tannin"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Meursault"/>
@@ -559,6 +514,18 @@
         <NamedIndividual IRI="#Provence"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Ready_to_drink_can_be_stored"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ready_to_drink_can_not_be_stored"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ready_to_drink_should_be_stored"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rich_Fullness"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Rivesaltes"/>
     </Declaration>
     <Declaration>
@@ -583,13 +550,49 @@
         <NamedIndividual IRI="#Savoie"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Solid_Tannin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#St._Joseph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweet_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweetish_Sweetness"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Touraine"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vacqueyras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Fresh_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Light_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Little_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Little_Tannin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Rich_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Sweet_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Tannin"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vosne-Romanée"/>
@@ -766,20 +769,8 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Dry_Sweetness"/>
-        <Class IRI="#Sweetness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Extra_Bitterness"/>
-        <Class IRI="#Bitterness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#France"/>
         <Class IRI="#countries&amp;regions"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Fresh_Freshness"/>
-        <Class IRI="#Freshness_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Freshness_Value_Partition"/>
@@ -792,22 +783,6 @@
     <SubClassOf>
         <Class IRI="#Game_Meat"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Good_Bitterness"/>
-        <Class IRI="#Bitterness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Good_Freshness"/>
-        <Class IRI="#Freshness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Good_Fullness"/>
-        <Class IRI="#Fullness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Good_Tannin"/>
-        <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IndianPaleAle"/>
@@ -878,52 +853,12 @@
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Light_Fullness"/>
-        <Class IRI="#Fullness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Little_Bitterness"/>
-        <Class IRI="#Bitterness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Little_Sweetness"/>
-        <Class IRI="#Sweetness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Little_Tannin"/>
-        <Class IRI="#Tannin_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Loire_Valley"/>
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Low_Freshness"/>
-        <Class IRI="#Freshness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Mascara"/>
         <Class IRI="#Algeria"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Medium_Bitterness"/>
-        <Class IRI="#Bitterness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Medium_Freshness"/>
-        <Class IRI="#Freshness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Medium_Fullness"/>
-        <Class IRI="#Fullness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Medium_Sweetness"/>
-        <Class IRI="#Sweetness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Medium_Tannin"/>
-        <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mâconnais"/>
@@ -1034,18 +969,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ready_to_drink_can_be_stored"/>
-        <Class IRI="#Storage_value_partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ready_to_drink_can_not_be_stored"/>
-        <Class IRI="#Storage_value_partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ready_to_drink_should_be_stored"/>
-        <Class IRI="#Storage_value_partition"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Red"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
@@ -1089,10 +1012,6 @@
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rich_Fullness"/>
-        <Class IRI="#Fullness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Rosé"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
@@ -1124,10 +1043,6 @@
     <SubClassOf>
         <Class IRI="#Small"/>
         <Class IRI="#Game_Meat"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Solid_Tannin"/>
-        <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SourBeer"/>
@@ -1198,14 +1113,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sweet_Sweetness"/>
-        <Class IRI="#Sweetness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Sweetish_Sweetness"/>
-        <Class IRI="#Sweetness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Sweetness_Value_Partition"/>
         <Class IRI="#Value_Partition"/>
     </SubClassOf>
@@ -1220,42 +1127,6 @@
     <SubClassOf>
         <Class IRI="#Vegetarian"/>
         <Class IRI="#food"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Bitterness"/>
-        <Class IRI="#Bitterness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Fresh_Freshness"/>
-        <Class IRI="#Freshness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Light_Fullness"/>
-        <Class IRI="#Fullness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Little_Bitterness"/>
-        <Class IRI="#Bitterness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Little_Tannin"/>
-        <Class IRI="#Tannin_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Low_Freshness"/>
-        <Class IRI="#Freshness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Rich_Fullness"/>
-        <Class IRI="#Fullness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Sweet_Sweetness"/>
-        <Class IRI="#Sweetness_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Very_Tannin"/>
-        <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Whitemeat"/>
@@ -1558,6 +1429,10 @@
         <NamedIndividual IRI="#Cabardès"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Red"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
         <NamedIndividual IRI="#Chablis"/>
     </ClassAssertion>
@@ -1714,12 +1589,24 @@
         <NamedIndividual IRI="#Domaine_Henri_Milan"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Sweetness_Value_Partition"/>
+        <NamedIndividual IRI="#Dry_Sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <NamedIndividual IRI="#Entre-Deux-Mers"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Bitterness_Value_Partition"/>
+        <NamedIndividual IRI="#Extra_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Languedoc-Roussillon"/>
         <NamedIndividual IRI="#Fitou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freshness_Value_Partition"/>
+        <NamedIndividual IRI="#Fresh_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
@@ -1732,6 +1619,22 @@
     <ClassAssertion>
         <Class IRI="#Rhône"/>
         <NamedIndividual IRI="#Gigondas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bitterness_Value_Partition"/>
+        <NamedIndividual IRI="#Good_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freshness_Value_Partition"/>
+        <NamedIndividual IRI="#Good_Freshness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fullness_Value_Partition"/>
+        <NamedIndividual IRI="#Good_Fullness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tannin_Value_Partition"/>
+        <NamedIndividual IRI="#Good_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
@@ -1750,8 +1653,28 @@
         <NamedIndividual IRI="#Jura"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Fullness_Value_Partition"/>
+        <NamedIndividual IRI="#Light_Fullness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bitterness_Value_Partition"/>
+        <NamedIndividual IRI="#Little_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweetness_Value_Partition"/>
+        <NamedIndividual IRI="#Little_Sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tannin_Value_Partition"/>
+        <NamedIndividual IRI="#Little_Tannin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#France"/>
         <NamedIndividual IRI="#Lorraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freshness_Value_Partition"/>
+        <NamedIndividual IRI="#Low_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#France"/>
@@ -1764,6 +1687,26 @@
     <ClassAssertion>
         <Class IRI="#Languedoc-Roussillon"/>
         <NamedIndividual IRI="#Maury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bitterness_Value_Partition"/>
+        <NamedIndividual IRI="#Medium_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freshness_Value_Partition"/>
+        <NamedIndividual IRI="#Medium_Freshness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fullness_Value_Partition"/>
+        <NamedIndividual IRI="#Medium_Fullness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweetness_Value_Partition"/>
+        <NamedIndividual IRI="#Medium_Sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tannin_Value_Partition"/>
+        <NamedIndividual IRI="#Medium_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Côte_de_Beaune"/>
@@ -1806,6 +1749,22 @@
         <NamedIndividual IRI="#Provence"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Storage_value_partition"/>
+        <NamedIndividual IRI="#Ready_to_drink_can_be_stored"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storage_value_partition"/>
+        <NamedIndividual IRI="#Ready_to_drink_can_not_be_stored"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storage_value_partition"/>
+        <NamedIndividual IRI="#Ready_to_drink_should_be_stored"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fullness_Value_Partition"/>
+        <NamedIndividual IRI="#Rich_Fullness"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Languedoc-Roussillon"/>
         <NamedIndividual IRI="#Rivesaltes"/>
     </ClassAssertion>
@@ -1838,8 +1797,20 @@
         <NamedIndividual IRI="#Savoie"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Tannin_Value_Partition"/>
+        <NamedIndividual IRI="#Solid_Tannin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Rhône"/>
         <NamedIndividual IRI="#St._Joseph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweetness_Value_Partition"/>
+        <NamedIndividual IRI="#Sweet_Sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweetness_Value_Partition"/>
+        <NamedIndividual IRI="#Sweetish_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Loire_Valley"/>
@@ -1848,6 +1819,42 @@
     <ClassAssertion>
         <Class IRI="#Rhône"/>
         <NamedIndividual IRI="#Vacqueyras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bitterness_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freshness_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Fresh_Freshness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fullness_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Light_Fullness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bitterness_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Little_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tannin_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Little_Tannin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freshness_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Low_Freshness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fullness_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Rich_Fullness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweetness_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Sweet_Sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tannin_Value_Partition"/>
+        <NamedIndividual IRI="#Very_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Côte_de_Nuits"/>
@@ -1873,10 +1880,52 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Fresh_Freshness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasFullness"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Rich_Fullness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasTannin"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Good_Tannin"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <Literal>3,6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#HasProducer"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#HasBitterness"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#HasFreshness"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#HasFullness"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#HasSweetness"/>
+    </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#has_Storability"/>
     </FunctionalObjectProperty>
@@ -1916,6 +1965,30 @@
     <FunctionalDataProperty>
         <DataProperty IRI="#Has_tannin_content_value"/>
     </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+    </DisjointDataProperties>
 </Ontology>
 
 
