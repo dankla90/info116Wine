@@ -329,16 +329,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#white"/>
-        <Class IRI="#Ready_to_drink_now_can_be_stored"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ready_to_drink_now_can_not_be_stored"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ready_to_drink_now_should_be_stored"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Red"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Château_Figeac[4]"/>
@@ -387,10 +377,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasProducer"/>
-        <Class IRI="#Storage_Value_Partition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stout"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasSweetness"/>
@@ -547,10 +533,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pouilly-Fuissé"/>
-        <ObjectProperty IRI="#HasStorability"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasSweetness"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pouilly-Fumé"/>
@@ -602,31 +584,7 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
-        <DataProperty IRI="#Has_Alcohol_Percentage_Value"/>
     </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Has_Sugar_Content_Value"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Has_Tannin_Acid_Value"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Ch._du_Mourre_du_Tendre_Plan_de_Dieu_Cuvée_Jacques_2016"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#Alcoholproducts"/>
-        <ObjectMinCardinality cardinality="1">
-            <ObjectProperty IRI="#HasStorability"/>
-            <Class IRI="#Storage_Value_Partition"/>
-        </ObjectMinCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Alcoholproducts"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#Has_Alcohol_Percentage_Value"/>
-            <Datatype abbreviatedIRI="xsd:float"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ale"/>
         <Class IRI="#Beer"/>
@@ -1130,30 +1088,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Pouilly-Fuissé"/>
-        <Class IRI="#Mâconnais"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Pouilly-Fumé"/>
-        <Class IRI="#Loire_Valley"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Provence"/>
-        <Class IRI="#France"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ready_to_drink_now_can_be_stored"/>
-        <Class IRI="#Storage_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ready_to_drink_now_can_not_be_stored"/>
-        <Class IRI="#Storage_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Ready_to_drink_now_should_be_stored"/>
-        <Class IRI="#Storage_Value_Partition"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Red"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
@@ -1268,14 +1202,6 @@
             <ObjectProperty IRI="#HasSweetness"/>
             <Class IRI="#Sweetness_Value_Partition"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#St._Joseph"/>
-        <Class IRI="#Rhône"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Storage_Value_Partition"/>
-        <Class IRI="#Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stout"/>
@@ -1518,24 +1444,6 @@
             <ObjectProperty IRI="#IsFrom"/>
             <Class IRI="#countries&amp;regions"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#Has_Sugar_Content_Value"/>
-            <Datatype abbreviatedIRI="xsd:float"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#Has_Tannin_Acid_Value"/>
-            <Datatype abbreviatedIRI="xsd:float"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
@@ -1928,21 +1836,6 @@
         <ObjectProperty IRI="#HasProducer"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#HasBitterness"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#HasFreshness"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#HasFullness"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#HasSweetness"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#HasTannin"/>
-    </FunctionalObjectProperty>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasBitterness"/>
         <Class IRI="#Bitterness_Value_Partition"/>
@@ -1956,10 +1849,6 @@
         <Class IRI="#Fullness_Value_Partition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#HasStorability"/>
-        <Class IRI="#Storage_Value_Partition"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#HasSweetness"/>
         <Class IRI="#Sweetness_Value_Partition"/>
     </ObjectPropertyRange>
@@ -1967,21 +1856,9 @@
         <ObjectProperty IRI="#HasTannin"/>
         <Class IRI="#Tannin_Value_Partition"/>
     </ObjectPropertyRange>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Has_Sugar_Content_Value"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#Has_Alcohol_Percentage_Value"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#Has_Sugar_Content_Value"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#Has_Tannin_Acid_Value"/>
-    </FunctionalDataProperty>
 </Ontology>
 
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
