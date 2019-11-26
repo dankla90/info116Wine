@@ -25,16 +25,7 @@
         <Class IRI="#Algiers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Apertif"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Beef"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Beer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Big"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bitter"/>
@@ -49,9 +40,6 @@
         <Class IRI="#Béjaïa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cheese"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Chlef_Province"/>
     </Declaration>
     <Declaration>
@@ -62,9 +50,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Dahra"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Desert"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Domestic_Meat"/>
@@ -109,9 +94,6 @@
         <Class IRI="#Pilsner"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pork"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Porter"/>
     </Declaration>
     <Declaration>
@@ -125,9 +107,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#SeaFood"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Small"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SourBeer"/>
@@ -151,12 +130,6 @@
         <Class IRI="#Value_Partition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vegetarian"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Whitemeat"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Zaccar"/>
     </Declaration>
     <Declaration>
@@ -178,19 +151,10 @@
         <Class IRI="#Côte_d&apos;Or"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lam/Sheep"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#countries&amp;regions"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fish"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Shellfish"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
@@ -244,6 +208,9 @@
         <NamedIndividual IRI="#Alsace"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Apertif"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Auxey-Duresses"/>
     </Declaration>
     <Declaration>
@@ -260,6 +227,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Beaune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beef"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Big"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Blanquette_de_Limoux"/>
@@ -287,6 +260,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Chateau_Haut-Bages_Liberal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cheese"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Château-Grillet"/>
@@ -388,6 +364,9 @@
         <NamedIndividual IRI="#Côtes_du_Roussillon"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Desert"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Domaine_Henri_Milan"/>
     </Declaration>
     <Declaration>
@@ -398,6 +377,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Extra_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fish"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Fitou"/>
@@ -505,6 +487,9 @@
         <NamedIndividual IRI="#Pomerol"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Pork"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pouilly-Fuissé"/>
     </Declaration>
     <Declaration>
@@ -550,6 +535,12 @@
         <NamedIndividual IRI="#Savoie"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Shellfish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Small"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Solid_Tannin"/>
     </Declaration>
     <Declaration>
@@ -566,6 +557,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vacqueyras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegetarian"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Very_Bitterness"/>
@@ -598,6 +592,9 @@
         <NamedIndividual IRI="#Vosne-Romanée"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Whitemeat"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Anjou_–_Saumur"/>
     </Declaration>
     <Declaration>
@@ -608,6 +605,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Côte_du_Rhône-Villages,_Rhône_wine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam/Sheep"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
@@ -639,14 +639,6 @@
         <Class IRI="#Algeria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Apertif"/>
-        <Class IRI="#food"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Beef"/>
-        <Class IRI="#Domestic_Meat"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Beer"/>
         <Class IRI="#Alcoholproducts"/>
     </SubClassOf>
@@ -670,10 +662,6 @@
             <ObjectProperty IRI="#IsFrom"/>
             <Class IRI="#countries&amp;regions"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Big"/>
-        <Class IRI="#Game_Meat"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bitter"/>
@@ -741,10 +729,6 @@
         <Class IRI="#Algeria"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cheese"/>
-        <Class IRI="#food"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Chlef_Province"/>
         <Class IRI="#Algeria"/>
     </SubClassOf>
@@ -759,10 +743,6 @@
     <SubClassOf>
         <Class IRI="#Dahra"/>
         <Class IRI="#Chlef_Province"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Desert"/>
-        <Class IRI="#food"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Domestic_Meat"/>
@@ -933,10 +913,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Pork"/>
-        <Class IRI="#Domestic_Meat"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Porter"/>
         <Class IRI="#Beer"/>
     </SubClassOf>
@@ -1041,10 +1017,6 @@
         <Class IRI="#food"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Small"/>
-        <Class IRI="#Game_Meat"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#SourBeer"/>
         <Class IRI="#Beer"/>
     </SubClassOf>
@@ -1123,14 +1095,6 @@
     <SubClassOf>
         <Class IRI="#Tlemcen"/>
         <Class IRI="#Algeria"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegetarian"/>
-        <Class IRI="#food"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Whitemeat"/>
-        <Class IRI="#Domestic_Meat"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Zaccar"/>
@@ -1230,20 +1194,8 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lam/Sheep"/>
-        <Class IRI="#Domestic_Meat"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fish"/>
-        <Class IRI="#SeaFood"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
         <Class IRI="#food"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Shellfish"/>
-        <Class IRI="#SeaFood"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
@@ -1326,26 +1278,8 @@
         <Class IRI="#Zaccar"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Apertif"/>
-        <Class IRI="#Cheese"/>
-        <Class IRI="#Desert"/>
-        <Class IRI="#SeaFood"/>
-        <Class IRI="#Vegetarian"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Beef"/>
-        <Class IRI="#Pork"/>
-        <Class IRI="#Whitemeat"/>
-        <Class IRI="#Lam/Sheep"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#Beer"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Big"/>
-        <Class IRI="#Small"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Bitter"/>
@@ -1380,10 +1314,6 @@
         <Class IRI="#producers"/>
         <Class IRI="#countries&amp;regions"/>
     </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Fish"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Shellfish"/>
-    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Côte_de_Beaune"/>
         <NamedIndividual IRI="#Aloxe-Corton"/>
@@ -1391,6 +1321,10 @@
     <ClassAssertion>
         <Class IRI="#France"/>
         <NamedIndividual IRI="#Alsace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#food"/>
+        <NamedIndividual IRI="#Apertif"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Côte_de_Beaune"/>
@@ -1415,6 +1349,14 @@
     <ClassAssertion>
         <Class IRI="#Côte_de_Beaune"/>
         <NamedIndividual IRI="#Beaune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Meat"/>
+        <NamedIndividual IRI="#Beef"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game_Meat"/>
+        <NamedIndividual IRI="#Big"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Languedoc-Roussillon"/>
@@ -1451,6 +1393,10 @@
     <ClassAssertion>
         <Class IRI="#producers"/>
         <NamedIndividual IRI="#Chateau_Haut-Bages_Liberal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#food"/>
+        <NamedIndividual IRI="#Cheese"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Rhône"/>
@@ -1585,6 +1531,10 @@
         <NamedIndividual IRI="#Côtes_du_Roussillon"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#food"/>
+        <NamedIndividual IRI="#Desert"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#producers"/>
         <NamedIndividual IRI="#Domaine_Henri_Milan"/>
     </ClassAssertion>
@@ -1599,6 +1549,10 @@
     <ClassAssertion>
         <Class IRI="#Bitterness_Value_Partition"/>
         <NamedIndividual IRI="#Extra_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeaFood"/>
+        <NamedIndividual IRI="#Fish"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Languedoc-Roussillon"/>
@@ -1741,6 +1695,14 @@
         <NamedIndividual IRI="#Pomerol"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Domestic_Meat"/>
+        <NamedIndividual IRI="#Pork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loire_Valley"/>
+        <NamedIndividual IRI="#Pouilly-Fuissé"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Loire_Valley"/>
         <NamedIndividual IRI="#Pouilly-Fumé"/>
     </ClassAssertion>
@@ -1797,6 +1759,14 @@
         <NamedIndividual IRI="#Savoie"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#SeaFood"/>
+        <NamedIndividual IRI="#Shellfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game_Meat"/>
+        <NamedIndividual IRI="#Small"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Tannin_Value_Partition"/>
         <NamedIndividual IRI="#Solid_Tannin"/>
     </ClassAssertion>
@@ -1819,6 +1789,10 @@
     <ClassAssertion>
         <Class IRI="#Rhône"/>
         <NamedIndividual IRI="#Vacqueyras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#food"/>
+        <NamedIndividual IRI="#Vegetarian"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Bitterness_Value_Partition"/>
@@ -1861,6 +1835,10 @@
         <NamedIndividual IRI="#Vosne-Romanée"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Domestic_Meat"/>
+        <NamedIndividual IRI="#Whitemeat"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Loire_Valley"/>
         <NamedIndividual IRI="#Anjou_–_Saumur"/>
     </ClassAssertion>
@@ -1875,6 +1853,10 @@
     <ClassAssertion>
         <Class IRI="#Rhône"/>
         <NamedIndividual IRI="#Côte_du_Rhône-Villages,_Rhône_wine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Domestic_Meat"/>
+        <NamedIndividual IRI="#Lam/Sheep"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
