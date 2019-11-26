@@ -259,6 +259,7 @@
         <Class IRI="#SourBeer"/>
     </Declaration>
     <Declaration>
+<<<<<<< HEAD
         <Class IRI="#Stout"/>
     </Declaration>
     <Declaration>
@@ -269,6 +270,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Sweetness_Value_Partition"/>
+=======
+        <Class IRI="#Red"/>
+>>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
     </Declaration>
     <Declaration>
         <Class IRI="#Tannin_Value_Partition"/>
@@ -316,10 +320,14 @@
         <Class IRI="#Zaccar"/>
     </Declaration>
     <Declaration>
+<<<<<<< HEAD
         <Class IRI="#food"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fortified_wine"/>
+=======
+        <Class IRI="#Stout"/>
+>>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
     </Declaration>
     <Declaration>
         <Class IRI="#producers"/>
@@ -469,10 +477,14 @@
         <NamedIndividual IRI="#Côtes_du_Roussillon"/>
     </Declaration>
     <Declaration>
+<<<<<<< HEAD
         <NamedIndividual IRI="#Entre-Deux-Mers"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Fitou"/>
+=======
+        <ObjectProperty IRI="#HasSweetness"/>
+>>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Fronsac"/>
@@ -481,6 +493,7 @@
         <NamedIndividual IRI="#Gevrey-Chambertin"/>
     </Declaration>
     <Declaration>
+<<<<<<< HEAD
         <NamedIndividual IRI="#Gigondas"/>
     </Declaration>
     <Declaration>
@@ -491,6 +504,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hermitage"/>
+=======
+        <NamedIndividual IRI="#Ch._du_Mourre_du_Tendre_Plan_de_Dieu_Cuvée_Jacques_2016"/>
+>>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jura"/>
@@ -1088,6 +1104,21 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+<<<<<<< HEAD
+=======
+        <Class IRI="#Pouilly-Fuissé"/>
+        <Class IRI="#Mâconnais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pouilly-Fumé"/>
+        <Class IRI="#Loire_Valley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provence"/>
+        <Class IRI="#France"/>
+    </SubClassOf>
+    <SubClassOf>
+>>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
         <Class IRI="#Red"/>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
     </SubClassOf>
@@ -1204,6 +1235,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+<<<<<<< HEAD
+=======
+        <Class IRI="#St._Joseph"/>
+        <Class IRI="#Rhône"/>
+    </SubClassOf>
+    <SubClassOf>
+>>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
         <Class IRI="#Stout"/>
         <Class IRI="#Beer"/>
     </SubClassOf>
@@ -1446,6 +1484,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+<<<<<<< HEAD
+=======
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy"/>
+    </SubClassOf>
+    <SubClassOf>
+>>>>>>> parent of 0c8e3a1... Merge branch 'master' of https://github.com/dankla90/info116Wine
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <Class IRI="#France"/>
     </SubClassOf>
