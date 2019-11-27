@@ -244,6 +244,9 @@
         <NamedIndividual IRI="#Cabardès"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
     </Declaration>
     <Declaration>
@@ -302,6 +305,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Château_Lynch-Moussas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Château_Magondeau"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Château_Margaux"/>
@@ -365,6 +371,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Desert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Domaine_Henri_Milan"/>
@@ -481,6 +490,9 @@
         <NamedIndividual IRI="#Pauillac"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pessac-Léognan"/>
     </Declaration>
     <Declaration>
@@ -514,6 +526,12 @@
         <NamedIndividual IRI="#Rivesaltes"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Saint-Estèphe"/>
     </Declaration>
     <Declaration>
@@ -530,6 +548,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Santenay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Savennières"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Savoie"/>
@@ -551,6 +572,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sweetish_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taittinger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Touraine"/>
@@ -608,6 +635,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lam/Sheep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ma&apos;s_Del_Vin"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
@@ -1372,6 +1402,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Red"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1449,6 +1483,10 @@
     <ClassAssertion>
         <Class IRI="#producers"/>
         <NamedIndividual IRI="#Château_Lynch-Moussas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#producers"/>
+        <NamedIndividual IRI="#Château_Magondeau"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#producers"/>
@@ -1533,6 +1571,10 @@
     <ClassAssertion>
         <Class IRI="#food"/>
         <NamedIndividual IRI="#Desert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#white"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#producers"/>
@@ -1687,6 +1729,10 @@
         <NamedIndividual IRI="#Pauillac"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Red"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <NamedIndividual IRI="#Pessac-Léognan"/>
     </ClassAssertion>
@@ -1731,6 +1777,14 @@
         <NamedIndividual IRI="#Rivesaltes"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#fortified_wine"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rosé"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <NamedIndividual IRI="#Saint-Estèphe"/>
     </ClassAssertion>
@@ -1753,6 +1807,10 @@
     <ClassAssertion>
         <Class IRI="#Côte_de_Beaune"/>
         <NamedIndividual IRI="#Santenay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loire_Valley"/>
+        <NamedIndividual IRI="#Savennières"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#France"/>
@@ -1781,6 +1839,14 @@
     <ClassAssertion>
         <Class IRI="#Sweetness_Value_Partition"/>
         <NamedIndividual IRI="#Sweetish_Sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#producers"/>
+        <NamedIndividual IRI="#Taittinger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sparkling"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Loire_Valley"/>
@@ -1859,9 +1925,43 @@
         <NamedIndividual IRI="#Lam/Sheep"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#producers"/>
+        <NamedIndividual IRI="#Ma&apos;s_Del_Vin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#Beef"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#Big"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#Lam/Sheep"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasTannin"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#Good_Tannin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#Haut-Médoc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storability"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#Ready_to_drink_should_be_stored"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GoesWith"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
@@ -1888,6 +1988,11 @@
         <NamedIndividual IRI="#Rich_Fullness"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasProducer"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Château_Magondeau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasTannin"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
         <NamedIndividual IRI="#Good_Tannin"/>
@@ -1897,6 +2002,156 @@
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
         <NamedIndividual IRI="#Fronsac"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <NamedIndividual IRI="#Shellfish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <NamedIndividual IRI="#Whitemeat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <NamedIndividual IRI="#Savennières"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storability"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <NamedIndividual IRI="#Ready_to_drink_can_be_stored"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#Beef"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#Big"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#Cheese"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasProducer"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#Château_Latour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#Pauillac"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storability"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#Ready_to_drink_should_be_stored"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <NamedIndividual IRI="#Cheese"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <NamedIndividual IRI="#Desert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasProducer"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <NamedIndividual IRI="#Ma&apos;s_Del_Vin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <NamedIndividual IRI="#Rivesaltes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storability"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <NamedIndividual IRI="#Ready_to_drink_can_be_stored"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <NamedIndividual IRI="#Apertif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <NamedIndividual IRI="#Whitemeat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <NamedIndividual IRI="#Sancerre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storability"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <NamedIndividual IRI="#Ready_to_drink_can_be_stored"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#Apertif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#Cheese"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#Desert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasProducer"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#Taittinger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#Champagne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storability"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#Ready_to_drink_can_be_stored"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <Literal>13.5%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <Literal>N/A</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
@@ -1911,6 +2166,76 @@
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
         <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <Literal>6.8g/l</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <Literal>13%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <Literal>5.6g/l</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <Literal>16.5%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <Literal>110g/l</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <Literal>5.6g/l</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <Literal>13.5%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <Literal>4.2g/l</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <Literal>12.5%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <Literal>17.5g/l</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#HasProducer"/>
