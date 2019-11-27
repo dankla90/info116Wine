@@ -410,6 +410,9 @@
                 "Fish",
                 "Apertif"
             ],
+            "HasFreashness": "High_Freshness",
+            "HasFullness": "Medium_High_Fullness",
+            "HasSweetness": "Very_Low_Sweetness",
             "offers": {
                 "@type": "Offer",
                 "availability": "http://schema.org/InStock",
@@ -1232,7 +1235,7 @@
                                                     </div>
                                                     <span class="sr-only">
 
-                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasFreashness">Friskhet 8 av 12</div>
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasFreashness" value="High_Freshness">Friskhet 8 av 12</div>
                                                     </span>
                                                 </li>
                                                 <li class="product__properties-item  product-characteristics__item--fylde">
@@ -1242,7 +1245,7 @@
                                                         <div vocab="Wine&BeerOntologgy_Update.owl" typeof="Fullness_Value_Partition">Fylde</div>
                                                     </div>
                                                     <span class="sr-only">
-                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasFullness">Fylde 7 av 12</div>
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasFullness" vaule="Medium_High_Fullness">Fylde 7 av 12</div>
                                                     </span>
                                                 </li>
                                                 <li class="product__properties-item product-characteristics__item--sodme">
@@ -1252,7 +1255,7 @@
                                                         <div vocab="Wine&BeerOntologgy_Update.owl" typeof="Sweetness_Value_Partition">Sødme</div>
                                                     </div>
                                                     <span class="sr-only">
-                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasSweetness">Sødme 1 av 12</div>
+                                                        <div vocab="Wine&BeerOntologgy_Update.owl" property="HasSweetness" value="Very_Low_Sweetness">Sødme 1 av 12</div>
                                                     </span>
                                                 </li>
                                             </ul>
@@ -1711,7 +1714,8 @@
                 </div>
             </div>
         </main>
-        <footer class="site__footer" id="site-footer">
+        <!--Satt vocab for hele footer-->
+        <footer class="site__footer" id="site-footer" vocab="https://schema.org/LocalBusiness">
             <div class="section">
                 <div class="section__inner-container">
                     <div class="footer">
@@ -1720,7 +1724,8 @@
                                 <h2 class="footer__headline" tabindex="0" aria-controls="ContactUsNavNode">Kontakt oss</h2>
                                 <ul id="ContactUsNavNode" class="link-list" aria-expanded="false">
                                     <li class="OpeningHoursLink">
-                                        <p>Åpningstider:<br />man, tir, tor og fre: 08:00 - 18:00<br />ons: 09:00 - 18:00 <br /> lør: 09:00 - 15:00</p>
+                                        <!--rdfa hint åpningstider-->
+                                        <p property="openingHours">Åpningstider:<br />man, tir, tor og fre: 08:00 - 18:00<br />ons: 09:00 - 18:00 <br /> lør: 09:00 - 15:00</p>
                                     </li>
                                     <li class="yCmsComponent ChatWithUsLink">
                                         <a href="/vmp/customer-relations/chat" title="Chatten er åpen">Chatten er åpen<span class='link-list__postfix'></span></a>
@@ -1729,16 +1734,18 @@
                                         </div>
                                     </li>
                                     <li class="CallUsLink">
-                                        <a href="tel:22015000">22 01 50 00</a>
+                                        <!--rdfa hint telefon-->
+                                        <a property="telephone" href="tel:22015000">22 01 50 00</a>
                                         <p>
                                             <p>Vi kan ringe deg tilbake alle hverdager mellom kl 9 og 16</p>&nbsp;
                                             <a class="js-open-call-us-window" href="http://triochat.vinmonopolet.no/CC1/webcmb/index.php?sid=7&lang=no" target="_blank" rel="noopener">Ring meg</a>
                                         </p>
                                     </li>
                                     <li class="yCmsComponent SendUsEmailLink">
-                                        <a href="mailto:kundesenter@vinmonopolet.no" title="kundesenter@vinmonopolet.no">kundesenter@vinmonopolet.no<span class='link-list__postfix'></span></a></li>
+                                        <!--rdfa email og url til fb-->
+                                        <a property="email" href="mailto:kundesenter@vinmonopolet.no" title="kundesenter@vinmonopolet.no">kundesenter@vinmonopolet.no<span class='link-list__postfix'></span></a></li>
                                     <li class="yCmsComponent VmpOnFacebookLink">
-                                        <a href="https://www.facebook.com/Vinmonopolet" title="Vinmonopolet på Facebook">Vinmonopolet på Facebook<span class='link-list__postfix'></span></a></li>
+                                        <a property="url" href="https://www.facebook.com/Vinmonopolet" title="Vinmonopolet på Facebook">Vinmonopolet på Facebook<span class='link-list__postfix'></span></a></li>
                                 </ul>
                             </div>
                         </div>
