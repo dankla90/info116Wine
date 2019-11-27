@@ -1863,6 +1863,21 @@
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Beef"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Big"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Lam/Sheep"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
         <NamedIndividual IRI="#Fresh_Freshness"/>
@@ -1876,6 +1891,11 @@
         <ObjectProperty IRI="#HasTannin"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
         <NamedIndividual IRI="#Good_Tannin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site"/>
+        <NamedIndividual IRI="#Fronsac"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
