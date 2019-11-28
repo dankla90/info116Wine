@@ -116,8 +116,9 @@
 	<script type="application/ld+json">
 		{
 			"@context": "http://schema.org",
-			"@type": "Country" ,"name": "France",
-							"ContainsPlace": [
+			"@type": "Country",
+			"name": "France",
+			"ContainsPlace": [
 				{"@type":"AdministrativeArea" ,"name": "Burgundy"},
 				{"@type":"AdministrativeArea" ,"name": "Bordeaux"},
 				{"@type":"AdministrativeArea" ,"name": "Champagne"},
@@ -128,8 +129,8 @@
 				{"@type":"AdministrativeArea" ,"name": "Cognac"},
 				{"@type":"AdministrativeArea" ,"name": "traditional"},
 				{"@type":"AdministrativeArea" ,"name": "Other"}
-			]
-			
+			],
+			"hasmap": "https://maps.google.com/maps?ll=46.227638,2.213749&amp;z=6&amp;t=m&amp;hl=en-GB&amp;gl=US&amp;mapclient=apiv3"
 		}
 	</script>
 
@@ -599,11 +600,7 @@
 	<script type="text/javascript" src="./Frankrike _ Land _ Vinmonopolet_files/analyticsmediator.js"></script>
 	<!-- Google Tag Manager -->
 
-	<!-- Here is some of the RDF from schema.org-->
-	<div vocab="http://schema.org/">
-		<div class="Country" property="location"></div>
-		<span property="name">France</span>
-	</div>
+
 
 	<script type="text/javascript">
 		dataLayer = [];
@@ -1703,7 +1700,7 @@
 
 					<div class="section section--always-margin">
 						<div class="section__inner-container">
-							<ul class="breadcrumbs" aria-label="brødsmulesti" role="navigation">
+							<ul class="breadcrumbs" aria-label="brødsmulesti" role="navigation" vocab="http://schema.org/" class="Country" property="location" >
 
 
 								<li>
