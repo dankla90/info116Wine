@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/bassb/ontologies/2019/9/Wine&amp;Beer-15">
-    <Prefix name="" IRI="http://www.semanticweb.org/bassb/ontologies/2019/9/untitled-ontology-15"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/bassb/ontologies/2019/9/Wine&amp;Beer-15"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -642,6 +642,24 @@
     <Declaration>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Rosé"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasFreshness"/>
+                <Class IRI="#Freshness_Value_Partition"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasFullness"/>
+                <Class IRI="#Fullness_Value_Partition"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasSweetness"/>
+                <Class IRI="#Sweetness_Value_Partition"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Alcoholproducts"/>
         <ObjectMinCardinality cardinality="1">
@@ -1016,31 +1034,6 @@
     <SubClassOf>
         <Class IRI="#Rhône"/>
         <Class IRI="#France"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Rosé"/>
-        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Rosé"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#HasFreshness"/>
-            <Class IRI="#Freshness_Value_Partition"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Rosé"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#HasFullness"/>
-            <Class IRI="#Fullness_Value_Partition"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Rosé"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#HasSweetness"/>
-            <Class IRI="#Sweetness_Value_Partition"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SeaFood"/>
@@ -2225,32 +2218,27 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
         <NamedIndividual IRI="#Ch._Camensac_2009"/>
-        <Literal>13.5%</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Ch._Camensac_2009"/>
-        <Literal>&lt;3</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Has_tannin_content_value"/>
-        <NamedIndividual IRI="#Ch._Camensac_2009"/>
-        <Literal>N/A</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
-        <Literal>3,6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
@@ -2260,67 +2248,67 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_tannin_content_value"/>
         <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
-        <Literal>6.8g/l</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
         <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
-        <Literal>13%</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_tannin_content_value"/>
         <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
-        <Literal>5.6g/l</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
         <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
-        <Literal>16.5%</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">16.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
-        <Literal>110g/l</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">110</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_tannin_content_value"/>
         <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
-        <Literal>5.6g/l</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
-        <Literal>13.5%</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_tannin_content_value"/>
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
-        <Literal>4.2g/l</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
         <NamedIndividual IRI="#Taittinger_Nocturne"/>
-        <Literal>12.5%</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_sugar_content_value"/>
         <NamedIndividual IRI="#Taittinger_Nocturne"/>
-        <Literal>17.5g/l</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">17.5</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#HasProducer"/>
@@ -2379,15 +2367,15 @@
     </FunctionalDataProperty>
     <DataPropertyRange>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Has_sugar_content_value"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Has_tannin_content_value"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DisjointDataProperties>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
