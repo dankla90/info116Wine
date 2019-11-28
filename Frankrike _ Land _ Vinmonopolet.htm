@@ -114,7 +114,8 @@
 
 	<!-- Here is our JSJON LD code -->
 	<script type="application/ld+json">
-		{
+		[
+			{
 			"@context": "http://schema.org",
 			"@type": "Country",
 			"name": "France",
@@ -194,9 +195,55 @@
 			Loire-dalen i nordvest byr på hvitvin av høy
 			kvalitet på druen Chenin Blanc og spennende rødvin av «lillebror-druen» fra
 			Bordeaux, Cabernet Franc."
-		}
-		
+			},
+
+
+			{
+			"@context": "http://www.semanticweb.org/bassb/ontologies/2019/9/Wine&Beer-15",
+			"Alcoholproducts" : [
+				{"@type":"Alcoholproducts","name": "Beer",
+					"SubClass":   [
+					{"@type":"Beer", "name": "Lager"},
+					{"@type":"Beer", "name": "Pilsner"},
+					{"@type":"Beer", "name": "Porter"},
+					{"@type":"Beer", "name": "SourBeer"},
+					{"@type":"Beer", "name": "Stout"},
+					{"@type":"Beer", "name": "Ale",
+					"SubClass": [
+							{"@type":"Beer", "name": "Bitter"},	
+							{"@type":"Beer", "name": "BrownAle"},
+							{"@type":"Beer", "name": "IndianPaleAle"},
+							{"@type":"Beer", "name": "PaleAle"}
+					]
+						}
+					] },
+				{"@type":"Alcoholproducts","name": "Wine",
+					"SubClass":[
+					{"@type":"Wine", "name": "fortified_wine"},
+					{"@type":"Wine", "name": "Red"},
+					{"@type":"Wine", "name": "Rosé"},
+					{"@type":"Wine", "name": "sparkling"},
+					{"@type":"Wine", "name": "white"}   
+					]}
+			]
+			}
+		]
+
 	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<script type="text/javascript" src="./Frankrike _ Land _ Vinmonopolet_files/9754fafa07"></script>
 	<script src="./Frankrike _ Land _ Vinmonopolet_files/nr-1130.min.js"></script>
