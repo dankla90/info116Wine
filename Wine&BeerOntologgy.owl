@@ -658,6 +658,9 @@
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Rotem_and_Mounir_Saouma"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Saint-Estèphe"/>
     </Declaration>
     <Declaration>
@@ -674,6 +677,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Santenay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Savennières"/>
@@ -2057,6 +2063,10 @@
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#producers"/>
+        <NamedIndividual IRI="#Rotem_and_Mounir_Saouma"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux"/>
         <NamedIndividual IRI="#Saint-Estèphe"/>
     </ClassAssertion>
@@ -2079,6 +2089,10 @@
     <ClassAssertion>
         <Class IRI="#Côte_de_Beaune"/>
         <NamedIndividual IRI="#Santenay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#white"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Loire_Valley"/>
@@ -2503,6 +2517,56 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Apertif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Fish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Shellfish"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Medium_High_Freshness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasFullness"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Medium_High_Fullness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasProducer"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Rotem_and_Mounir_Saouma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Low_Sweetness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasTannin"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#No_Tannin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsFrom"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <NamedIndividual IRI="#Châteauneuf-du-Pape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GoesWith"/>
         <NamedIndividual IRI="#Taittinger_Nocturne"/>
         <NamedIndividual IRI="#Apertif"/>
     </ObjectPropertyAssertion>
@@ -2640,6 +2704,21 @@
         <DataProperty IRI="#Has_tannin_content_value"/>
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_sugar_content_value"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Has_tannin_content_value"/>
+        <NamedIndividual IRI="#Saouma_Chateauneuf-du-Pape_Magis_Blanc_2016"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
