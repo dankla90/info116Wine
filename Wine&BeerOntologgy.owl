@@ -493,6 +493,21 @@
         <NamedIndividual IRI="#Médoc"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Tannin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Nuits-Saint-Georges"/>
     </Declaration>
     <Declaration>
@@ -671,7 +686,7 @@
         <Class IRI="#Alcoholproducts"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
-            <Datatype abbreviatedIRI="xsd:float"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1249,14 +1264,14 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#Has_sugar_content_value"/>
-            <Datatype abbreviatedIRI="xsd:float"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#Has_tannin_content_value"/>
-            <Datatype abbreviatedIRI="xsd:float"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1726,6 +1741,26 @@
         <NamedIndividual IRI="#Médoc"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Bitterness_Value_Partition"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Freshness_Value_Partition"/>
+        <NamedIndividual IRI="#No_Freshness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fullness_Value_Partition"/>
+        <NamedIndividual IRI="#No_Fullness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweetness_Value_Partition"/>
+        <NamedIndividual IRI="#No_Sweetness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tannin_Value_Partition"/>
+        <NamedIndividual IRI="#No_Tannin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Côte_de_Nuits"/>
         <NamedIndividual IRI="#Nuits-Saint-Georges"/>
     </ClassAssertion>
@@ -1941,6 +1976,11 @@
         <NamedIndividual IRI="#Lam/Sheep"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Ch._Camensac_2009"/>
         <NamedIndividual IRI="#Medium_High_Freshness"/>
@@ -1949,6 +1989,11 @@
         <ObjectProperty IRI="#HasFullness"/>
         <NamedIndividual IRI="#Ch._Camensac_2009"/>
         <NamedIndividual IRI="#High_Fullness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <NamedIndividual IRI="#Ch._Camensac_2009"/>
+        <NamedIndividual IRI="#No_Sweetness"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasTannin"/>
@@ -1981,6 +2026,11 @@
         <NamedIndividual IRI="#Lam/Sheep"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
         <NamedIndividual IRI="#High_Freshness"/>
@@ -1994,6 +2044,11 @@
         <ObjectProperty IRI="#HasProducer"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
         <NamedIndividual IRI="#Château_Magondeau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
+        <NamedIndividual IRI="#No_Sweetness"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasTannin"/>
@@ -2021,6 +2076,11 @@
         <NamedIndividual IRI="#Whitemeat"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
         <NamedIndividual IRI="#High_Freshness"/>
@@ -2034,6 +2094,11 @@
         <ObjectProperty IRI="#HasSweetness"/>
         <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
         <NamedIndividual IRI="#Very_Low_Sweetness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasTannin"/>
+        <NamedIndividual IRI="#Dom._aux_Moines_Savennières_Roche_aux_Moines_2011"/>
+        <NamedIndividual IRI="#No_Tannin"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#IsFrom"/>
@@ -2061,6 +2126,11 @@
         <NamedIndividual IRI="#Cheese"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
         <NamedIndividual IRI="#High_Freshness"/>
@@ -2074,6 +2144,11 @@
         <ObjectProperty IRI="#HasProducer"/>
         <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
         <NamedIndividual IRI="#Château_Latour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <NamedIndividual IRI="#Pauillac_de_Latour_2014"/>
+        <NamedIndividual IRI="#No_Sweetness"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasTannin"/>
@@ -2101,6 +2176,11 @@
         <NamedIndividual IRI="#Desert"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
         <NamedIndividual IRI="#High_Freshness"/>
@@ -2119,6 +2199,11 @@
         <ObjectProperty IRI="#HasSweetness"/>
         <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
         <NamedIndividual IRI="#High_Sweetness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasTannin"/>
+        <NamedIndividual IRI="#Riveyrac_Rivesaltes_1970"/>
+        <NamedIndividual IRI="#No_Tannin"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#IsFrom"/>
@@ -2146,6 +2231,11 @@
         <NamedIndividual IRI="#Whitemeat"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
         <NamedIndividual IRI="#High_Freshness"/>
@@ -2159,6 +2249,11 @@
         <ObjectProperty IRI="#HasSweetness"/>
         <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
         <NamedIndividual IRI="#Very_Low_Sweetness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasTannin"/>
+        <NamedIndividual IRI="#Roblin_Origine_Sancerre_Rosé_2018"/>
+        <NamedIndividual IRI="#No_Tannin"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#IsFrom"/>
@@ -2186,6 +2281,11 @@
         <NamedIndividual IRI="#Desert"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#No_Bitterness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#HasFreshness"/>
         <NamedIndividual IRI="#Taittinger_Nocturne"/>
         <NamedIndividual IRI="#Medium_High_Freshness"/>
@@ -2204,6 +2304,11 @@
         <ObjectProperty IRI="#HasSweetness"/>
         <NamedIndividual IRI="#Taittinger_Nocturne"/>
         <NamedIndividual IRI="#Low_Sweetness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasTannin"/>
+        <NamedIndividual IRI="#Taittinger_Nocturne"/>
+        <NamedIndividual IRI="#No_Tannin"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#IsFrom"/>
@@ -2236,7 +2341,7 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Has_sugar_content_value"/>
+        <DataProperty IRI="#Has_tannin_content_value"/>
         <NamedIndividual IRI="#Ch._Magondeau_Beau_Site_2009"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.6</Literal>
     </DataPropertyAssertion>
@@ -2329,6 +2434,22 @@
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#has_Storability"/>
     </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GoesWith"/>
+        <Class IRI="#Alcoholproducts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasProducer"/>
+        <Class IRI="#Alcoholproducts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsFrom"/>
+        <Class IRI="#Alcoholproducts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GoesWith"/>
+        <Class IRI="#food"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasBitterness"/>
         <Class IRI="#Bitterness_Value_Partition"/>
@@ -2342,6 +2463,10 @@
         <Class IRI="#Fullness_Value_Partition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasProducer"/>
+        <Class IRI="#producers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#HasSweetness"/>
         <Class IRI="#Sweetness_Value_Partition"/>
     </ObjectPropertyRange>
@@ -2350,12 +2475,160 @@
         <Class IRI="#Tannin_Value_Partition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsFrom"/>
+        <Class IRI="#countries&amp;regions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#has_Storability"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#has_Storability"/>
             <Class IRI="#Storage_value_partition"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#HasBitterness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#HasFreshness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#HasFullness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#HasProducer"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#HasSweetness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#HasTannin"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#IsFrom"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#GoesWith"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <ObjectProperty IRI="#HasFreshness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <ObjectProperty IRI="#HasFullness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <ObjectProperty IRI="#HasProducer"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <ObjectProperty IRI="#HasSweetness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <ObjectProperty IRI="#HasTannin"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <ObjectProperty IRI="#IsFrom"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasBitterness"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <ObjectProperty IRI="#HasFullness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <ObjectProperty IRI="#HasProducer"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <ObjectProperty IRI="#HasSweetness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <ObjectProperty IRI="#HasTannin"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <ObjectProperty IRI="#IsFrom"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFreshness"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFullness"/>
+        <ObjectProperty IRI="#HasProducer"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFullness"/>
+        <ObjectProperty IRI="#HasSweetness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFullness"/>
+        <ObjectProperty IRI="#HasTannin"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFullness"/>
+        <ObjectProperty IRI="#IsFrom"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasFullness"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasProducer"/>
+        <ObjectProperty IRI="#HasSweetness"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasProducer"/>
+        <ObjectProperty IRI="#HasTannin"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasProducer"/>
+        <ObjectProperty IRI="#IsFrom"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasProducer"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <ObjectProperty IRI="#HasTannin"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <ObjectProperty IRI="#IsFrom"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasSweetness"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasTannin"/>
+        <ObjectProperty IRI="#IsFrom"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#HasTannin"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#IsFrom"/>
+        <ObjectProperty IRI="#has_Storability"/>
+    </DisjointObjectProperties>
     <FunctionalDataProperty>
         <DataProperty IRI="#Has_Alcohol_procentage_content_value"/>
     </FunctionalDataProperty>
