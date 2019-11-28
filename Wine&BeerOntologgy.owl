@@ -67,6 +67,21 @@
         <Class IRI="#Game_Meat"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#High_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Tannin"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#IndianPaleAle"/>
     </Declaration>
     <Declaration>
@@ -79,13 +94,73 @@
         <Class IRI="#Loire_Valley"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Low_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Tannin"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mascara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_High_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_High_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_High_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_High_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_High_Tannin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Low_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Low_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Low_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Low_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium_Low_Tannin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mâconnais"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Médéa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Tannin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PaleAle"/>
@@ -128,6 +203,36 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Value_Partition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_High_Tannin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Bitterness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Freshness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Fullness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Sweetness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Very_Low_Tannin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zaccar"/>
@@ -657,24 +762,6 @@
     <Declaration>
         <NamedIndividual IRI="#Sauternes_–_Sauternes"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#Rosé"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#HasFreshness"/>
-                <Class IRI="#Freshness_Value_Partition"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#HasFullness"/>
-                <Class IRI="#Fullness_Value_Partition"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#HasSweetness"/>
-                <Class IRI="#Sweetness_Value_Partition"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Alcoholproducts"/>
         <ObjectMinCardinality cardinality="1">
@@ -828,6 +915,26 @@
         <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Meat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#High_Bitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Freshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Fullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Sweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Tannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#IndianPaleAle"/>
         <Class IRI="#Ale"/>
     </SubClassOf>
@@ -900,8 +1007,68 @@
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Low_Bitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Freshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Fullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Sweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Tannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mascara"/>
         <Class IRI="#Algeria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_High_Bitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_High_Freshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_High_Fullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_High_Sweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_High_Tannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Low_Bitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Low_Freshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Low_Fullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Low_Sweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium_Low_Tannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mâconnais"/>
@@ -910,6 +1077,26 @@
     <SubClassOf>
         <Class IRI="#Médéa"/>
         <Class IRI="#Algeria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Bitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Freshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Fullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Sweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Tannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PaleAle"/>
@@ -1051,6 +1238,10 @@
         <Class IRI="#France"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rosé"/>
+        <Class IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SeaFood"/>
         <Class IRI="#food"/>
     </SubClassOf>
@@ -1133,6 +1324,46 @@
     <SubClassOf>
         <Class IRI="#Tlemcen"/>
         <Class IRI="#Algeria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Bitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Freshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Fullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Sweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_High_Tannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Bitterness"/>
+        <Class IRI="#Bitterness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Freshness"/>
+        <Class IRI="#Freshness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Fullness"/>
+        <Class IRI="#Fullness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Sweetness"/>
+        <Class IRI="#Sweetness_Value_Partition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Very_Low_Tannin"/>
+        <Class IRI="#Tannin_Value_Partition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Zaccar"/>
@@ -1336,9 +1567,14 @@
     <DisjointClasses>
         <Class IRI="#Red"/>
         <Class IRI="#Rosé"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Rosé"/>
         <Class IRI="#fortified_wine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Rosé"/>
         <Class IRI="#sparkling"/>
-        <Class IRI="#white"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#food"/>
@@ -1625,23 +1861,23 @@
         <NamedIndividual IRI="#Hermitage"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bitterness_Value_Partition"/>
+        <Class IRI="#High_Bitterness"/>
         <NamedIndividual IRI="#High_Bitterness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Freshness_Value_Partition"/>
+        <Class IRI="#High_Freshness"/>
         <NamedIndividual IRI="#High_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fullness_Value_Partition"/>
+        <Class IRI="#High_Fullness"/>
         <NamedIndividual IRI="#High_Fullness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sweetness_Value_Partition"/>
+        <Class IRI="#High_Sweetness"/>
         <NamedIndividual IRI="#High_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tannin_Value_Partition"/>
+        <Class IRI="#High_Tannin"/>
         <NamedIndividual IRI="#High_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1653,23 +1889,23 @@
         <NamedIndividual IRI="#Lorraine"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bitterness_Value_Partition"/>
+        <Class IRI="#Low_Bitterness"/>
         <NamedIndividual IRI="#Low_Bitterness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Freshness_Value_Partition"/>
+        <Class IRI="#Low_Freshness"/>
         <NamedIndividual IRI="#Low_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fullness_Value_Partition"/>
+        <Class IRI="#Low_Fullness"/>
         <NamedIndividual IRI="#Low_Fullness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sweetness_Value_Partition"/>
+        <Class IRI="#Low_Sweetness"/>
         <NamedIndividual IRI="#Low_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tannin_Value_Partition"/>
+        <Class IRI="#Low_Tannin"/>
         <NamedIndividual IRI="#Low_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1685,43 +1921,43 @@
         <NamedIndividual IRI="#Maury"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bitterness_Value_Partition"/>
+        <Class IRI="#Medium_High_Bitterness"/>
         <NamedIndividual IRI="#Medium_High_Bitterness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Freshness_Value_Partition"/>
+        <Class IRI="#Medium_High_Freshness"/>
         <NamedIndividual IRI="#Medium_High_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fullness_Value_Partition"/>
+        <Class IRI="#Medium_High_Fullness"/>
         <NamedIndividual IRI="#Medium_High_Fullness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sweetness_Value_Partition"/>
+        <Class IRI="#Medium_High_Sweetness"/>
         <NamedIndividual IRI="#Medium_High_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tannin_Value_Partition"/>
+        <Class IRI="#Medium_High_Tannin"/>
         <NamedIndividual IRI="#Medium_High_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bitterness_Value_Partition"/>
+        <Class IRI="#Medium_Low_Bitterness"/>
         <NamedIndividual IRI="#Medium_Low_Bitterness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Freshness_Value_Partition"/>
+        <Class IRI="#Medium_Low_Freshness"/>
         <NamedIndividual IRI="#Medium_Low_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fullness_Value_Partition"/>
+        <Class IRI="#Medium_Low_Fullness"/>
         <NamedIndividual IRI="#Medium_Low_Fullness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sweetness_Value_Partition"/>
+        <Class IRI="#Medium_Low_Sweetness"/>
         <NamedIndividual IRI="#Medium_Low_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tannin_Value_Partition"/>
+        <Class IRI="#Medium_Low_Tannin"/>
         <NamedIndividual IRI="#Medium_Low_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1741,23 +1977,23 @@
         <NamedIndividual IRI="#Médoc"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bitterness_Value_Partition"/>
+        <Class IRI="#No_Bitterness"/>
         <NamedIndividual IRI="#No_Bitterness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Freshness_Value_Partition"/>
+        <Class IRI="#No_Freshness"/>
         <NamedIndividual IRI="#No_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fullness_Value_Partition"/>
+        <Class IRI="#No_Fullness"/>
         <NamedIndividual IRI="#No_Fullness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sweetness_Value_Partition"/>
+        <Class IRI="#No_Sweetness"/>
         <NamedIndividual IRI="#No_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tannin_Value_Partition"/>
+        <Class IRI="#No_Tannin"/>
         <NamedIndividual IRI="#No_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1885,43 +2121,43 @@
         <NamedIndividual IRI="#Vegetarian"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bitterness_Value_Partition"/>
+        <Class IRI="#Very_High_Bitterness"/>
         <NamedIndividual IRI="#Very_High_Bitterness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Freshness_Value_Partition"/>
+        <Class IRI="#Very_High_Freshness"/>
         <NamedIndividual IRI="#Very_High_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fullness_Value_Partition"/>
+        <Class IRI="#Very_High_Fullness"/>
         <NamedIndividual IRI="#Very_High_Fullness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sweetness_Value_Partition"/>
+        <Class IRI="#Very_High_Sweetness"/>
         <NamedIndividual IRI="#Very_High_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tannin_Value_Partition"/>
+        <Class IRI="#Very_High_Tannin"/>
         <NamedIndividual IRI="#Very_High_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Bitterness_Value_Partition"/>
+        <Class IRI="#Very_Low_Bitterness"/>
         <NamedIndividual IRI="#Very_Low_Bitterness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Freshness_Value_Partition"/>
+        <Class IRI="#Very_Low_Freshness"/>
         <NamedIndividual IRI="#Very_Low_Freshness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fullness_Value_Partition"/>
+        <Class IRI="#Very_Low_Fullness"/>
         <NamedIndividual IRI="#Very_Low_Fullness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sweetness_Value_Partition"/>
+        <Class IRI="#Very_Low_Sweetness"/>
         <NamedIndividual IRI="#Very_Low_Sweetness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Tannin_Value_Partition"/>
+        <Class IRI="#Very_Low_Tannin"/>
         <NamedIndividual IRI="#Very_Low_Tannin"/>
     </ClassAssertion>
     <ClassAssertion>
